@@ -1,0 +1,135 @@
+/* color palette
+    #F4E6DB - beige
+    #393E2D - dark olive green
+    #D5DD55 - lime green
+    #FFFFFF - white
+    #CB5632 - burnt orange
+*/
+
+/* global styles */
+html {
+    box-sizing: border-box;
+    background: #F4E6DB;
+}
+
+h1 {
+    font-family: 'Oranienbaum', serif;
+    margin: 0;
+    color: #393E2D;
+    font-weight: 200;
+    text-align: center;
+    background-color: #D5DD55;
+}
+
+h2 {
+    font-family: 'Oranienbaum', serif;
+    margin: 0;
+    color: #393E2D;
+    text-align: center;
+    font-weight: 200;
+    background-color: #D5DD55;
+}
+
+h3 {
+    font-family: 'Oranienbaum', serif;
+    margin: 0;
+    color: #393E2D;
+}
+
+body {
+    font-family: 'Cutive Mono', monospace;
+    color: #393E2D;
+    font-size: large;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: center;
+}
+
+.navbar {
+    text-align: left;
+    padding: 15px;
+}
+
+/* links */
+a {
+    color: #CB5632;
+    text-decoration: underline;
+    font-size: large;
+}
+
+/* takes underline away when hover over link */
+a:hover {
+    font-weight: bold;
+    color: black;
+}
+
+/* centering content */
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 1%;
+    background-color: #F8F7F9;
+    padding: 30px;
+}
+
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* recipe + image layout */
+.container {
+    max-width: 950px;
+    padding-left: 30px;
+    padding-top: 30px;
+    overflow: auto;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+}
+
+/* recipe directions */
+.left {
+    display: block;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 30px;
+}
+
+/* ids */
+#enjoy {
+    text-align: center;
+    font-style: italic;
+}
+
+#tucci {
+    text-align: center;
+    padding: 20px;
+}
+
+
+footer {
+    background-color: #D5DD55;
+    margin-top: auto;
+}
